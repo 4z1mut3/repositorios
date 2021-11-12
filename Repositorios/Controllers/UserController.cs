@@ -34,7 +34,7 @@ namespace Repositorios.Controllers
 
 
    
-
+        //Listar dados de usuario /4z1mut3
         [HttpGet("usuario")]
         public async Task<String> dadosUsuario()
         {
@@ -53,7 +53,7 @@ namespace Repositorios.Controllers
             }
 
         }
-
+        //Listar repositorios de usuario /4z1mut3
         [HttpGet("repositorios")]
         public async Task<String> ListaRepositorios()
         {
